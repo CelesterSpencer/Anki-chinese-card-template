@@ -1,0 +1,45 @@
+html, body{
+	height: 90%;
+}
+
+.card {
+	font-family: arial;
+ 	font-size: 20px;
+ 	text-align: center;
+ 	color: black;
+ 	background-color: white;
+}
+
+wrap {
+	display: block;
+	text-align: center;
+}
+
+character {
+	display: inline-block;
+	margin: 2px;
+}
+
+hanzi {
+	display:block;
+	padding: 15px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-size: xx-large;
+	text-align: center;
+}
+
+pinyin {
+	display: block;
+	padding: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size: medium;
+	text-align: center;
+}
+
+container {
+	display: block;
+   	width: 100%;
+   	height: 30%;
+}
