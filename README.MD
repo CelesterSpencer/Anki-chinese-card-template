@@ -1,4 +1,4 @@
-#Anki chinese card template
+# Anki chinese card template
 
 The idea of this template is to make it easier to associate hanzi with pinyin and the corresponding tone.
 Hanzi and pinyin are wrapped in a box with a color that corresponds to a tone.
