@@ -3,7 +3,9 @@
 The idea of this template is to make it easier to associate hanzi with pinyin and the corresponding tone.
 Hanzi and pinyin are wrapped in a box with a color that corresponds to a tone.
 
+<div align="center">
 ![card template example](https://github.com/CelesterSpencer/Anki-chinese-card-template/blob/master/demo/anki%20chinese%20card%20example.PNG)
+</div>
 
 The card template contains 4 fields
 * Hanzi
