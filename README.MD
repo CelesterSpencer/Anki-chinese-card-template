@@ -11,7 +11,7 @@ The card template contains 4 fields
 * Translation
 * Hint
 
-To create the layout the number of *chunks* for pinyin and hanzi have to fit. For hanzi every character is a chunk. Also an array of symbols <span style="border: solid 1px gray; border-radius:3px;">.,;!?</span> ended by a whitespace  is a chunk. For pinyin, letters that may or may not be followed by a number are considered as a chunk.
+To create the layout the number of *chunks* for pinyin and hanzi have to fit. For hanzi every character is a chunk. Also an array of symbols <span style="border: solid 1px gray; border-radius:3px;">.,;!?/</span> ended by a whitespace  is a chunk. For pinyin, letters that may or may not be followed by a number are considered as a chunk.
 
 #### Example
 ```
