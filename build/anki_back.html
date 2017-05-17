@@ -1,0 +1,10 @@
+{{FrontSide}}
+
+<hr id="answer"></hr>
+
+<container id="tl">{{Translation}}</container>
+<container id="aw">{{Hint}}</container>
+
+<script>
+function fillPinyin(){for(var e=document.getElementsByTagName("pinyin"),n=0;n<e.length;n++)e[n].innerHTML=savedPinyin[n]}function addHRIfHintIsPresent(){var e=document.getElementById("aw");if(console.log(e),e.childNodes.length>0){console.log("content has elements");var n=document.createElement("hr"),t=document.getElementById("aw"),l=t.parentNode;l.insertBefore(n,t)}}try{var translationText=document.getElementById("tl");null!=translationText&&(translationText=translationText.innerHTML,processTranslation(translationText,"tl")),fillPinyin(),addHRIfHintIsPresent()}catch(err){document.getElementById("db").innerHTML=err}
+</script>

@@ -11,7 +11,7 @@ The card template contains 4 fields
 * Translation
 * Hint
 
-To create the layout the number of *chunks* for pinyin and hanzi have to fit. For hanzi every character is a chunk. Also an array of symbols ended by a whitespace <span style="border: solid 1px gray; border-radius:3px;">.,;!?</span> is a chunk. For pinyin letters that may or may not be followed by a number are considered as a chunk.
+To create the layout the number of *chunks* for pinyin and hanzi have to fit. For hanzi every character is a chunk. Also an array of symbols <span style="border: solid 1px gray; border-radius:3px;">.,;!?</span> ended by a whitespace  is a chunk. For pinyin, letters that may or may not be followed by a number are considered as a chunk.
 
 #### Example
 ```
@@ -33,3 +33,7 @@ This template has a custom color coding. But can be changed to fit color codings
 | third 	| blue 		|
 | forth 	| purple 	|
 | fifth/no 	| gray 		|
+
+## PEG.js
+
+To properly associate hanzi with pinyin and tones ***PEG.js*** has been used to create parsers that cut the strings into chunks and split pinyin into text and tones.

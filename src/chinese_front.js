@@ -87,7 +87,6 @@ try{
         return priority;
     }
     function getCharWithTone(char, tone) {
-        console.log(tone);
         var charWithTone = "";
         var charObj = vocalMap[char];
         if (charObj != null) {
@@ -99,7 +98,6 @@ try{
         return charWithTone;
     }
     function makeTonemarks(word, tone) {
-        console.log(word);
         var wordWithTones = word;
 
         var smallestPriority = 6;
@@ -116,7 +114,6 @@ try{
         if (idx !== -1) {
             var char = word.charAt(idx);
             var charWithTone = getCharWithTone(char, tone);
-            console.log(charWithTone);
             wordWithTones = word.replace(char,charWithTone);
         }
         return wordWithTones;
